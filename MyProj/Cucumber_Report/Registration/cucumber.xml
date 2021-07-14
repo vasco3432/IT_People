@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.75">
+<testcase classname="Register New User" name="Register User" time="17.279">
+<system-out><![CDATA[Given The user is already registration page.................................passed
+When The user inserts antonio@dominio.dominio and 914567890.................passed
+And The user clicks to accept terms and conditions..........................passed
+And The user clicks Next....................................................passed
+Then A modal of email sent must be displayed................................passed
+And A text box to insert the code sent to phone must be displayed...........passed
+]]></system-out>
+</testcase>
+</testsuite>

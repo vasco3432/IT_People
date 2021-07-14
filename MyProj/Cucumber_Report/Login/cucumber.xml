@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.5">
+<testcase classname="Login New User" name="Login User" time="14.002">
+<system-out><![CDATA[Given The user is already Login page........................................passed
+When The user inserts 1200188@isep.ipp.pt and #MyPass1......................passed
+And The user clicks to submit...............................................passed
+Then a new page must be open displaying a message user not authorized.......passed
+]]></system-out>
+</testcase>
+</testsuite>

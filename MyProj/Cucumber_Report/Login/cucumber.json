@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-14T09:08:03.378Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9348000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "flows.login.LoginStepDefinitions.setUpTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login User",
+        "description": "",
+        "id": "login-new-user;login-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1354000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "flows.login.LoginStepDefinitions.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user is already Login page",
+            "match": {
+              "location": "flows.login.LoginStepDefinitions.theUserIsAlreadyLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1315000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user inserts 1200188@isep.ipp.pt and #MyPass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1200188@isep.ipp.pt",
+                  "offset": 17
+                },
+                {
+                  "val": "#MyPass1",
+                  "offset": 41
+                }
+              ],
+              "location": "flows.login.LoginStepDefinitions.theUserInsertsEmailAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1153000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks to submit",
+            "match": {
+              "location": "flows.login.LoginStepDefinitions.theUserClicksToSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a new page must be open displaying a message user not authorized",
+            "match": {
+              "location": "flows.login.LoginStepDefinitions.aNewPageMustBeOpenDisplayingAMessageUserNotAuthorized()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login New User",
+    "description": "",
+    "id": "login-new-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/flows/login/LoginFlow.feature",
+    "tags": []
+  }
+]

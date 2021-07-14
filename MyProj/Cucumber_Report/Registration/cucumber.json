@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-14T09:08:03.379Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9433000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "flows.register.RegistrationStepDefinitions.setUpTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Register User",
+        "description": "",
+        "id": "register-new-user;register-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4903000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "flows.register.RegistrationStepDefinitions.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user is already registration page",
+            "match": {
+              "location": "flows.register.RegistrationStepDefinitions.theUserIsAlreadyRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 538000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user inserts antonio@dominio.dominio and 914567890",
+            "match": {
+              "arguments": [
+                {
+                  "val": "antonio@dominio.dominio",
+                  "offset": 17
+                },
+                {
+                  "val": "914567890",
+                  "offset": 45
+                }
+              ],
+              "location": "flows.register.RegistrationStepDefinitions.theUserInsertsEmailAndPhone(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 622000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks to accept terms and conditions",
+            "match": {
+              "location": "flows.register.RegistrationStepDefinitions.theUserClicksToAcceptTermsAndConditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 953000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks Next",
+            "match": {
+              "location": "flows.register.RegistrationStepDefinitions.theUserClicksNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "A modal of email sent must be displayed",
+            "match": {
+              "location": "flows.register.RegistrationStepDefinitions.aModalOfEmailSentMustBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "A text box to insert the code sent to phone must be displayed",
+            "match": {
+              "location": "flows.register.RegistrationStepDefinitions.aTextBoxToInsertTheCodeSentToPhoneMustBeDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register New User",
+    "description": "",
+    "id": "register-new-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/flows/register/RegistrationFlow.feature",
+    "tags": []
+  }
+]

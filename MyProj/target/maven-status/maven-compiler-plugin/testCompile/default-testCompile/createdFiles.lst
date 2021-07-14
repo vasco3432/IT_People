@@ -1,0 +1,4 @@
+flows\register\RegistrationStepDefinitions.class
+flows\login\LoginStepDefinitions.class
+flows\register\RegistrationRunner.class
+flows\login\LoginRunner.class

@@ -1,0 +1,6 @@
+base\TestBase.class
+pages\UserHomePage.class
+utils\WebEventListener.class
+pages\Login.class
+pages\Registration.class
+pages\HomePage.class
